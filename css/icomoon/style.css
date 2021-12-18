@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ja374w');
+  src:  url('fonts/icomoon.eot?ja374w#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ja374w') format('truetype'),
+    url('fonts/icomoon.woff?ja374w') format('woff'),
+    url('fonts/icomoon.svg?ja374w#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+  content: "\e901";
+  color: #1da1f2;
+  font-size: 30px;
+}
+.icon-youtube:before {
+  content: "\e902";
+  color: #f00;
+  font-size: 30px;
+  text-decoration: none;
+}
+.icon-facebook:before {
+  content: "\e900";
+  color: #1877f2;
+  font-size: 30px;
+  transition: all 300ms;
+
+}
+
+
+a:link {
+  text-decoration: none
+   }
+a:visited {
+  color: black; 
+ font-family: arial; 
+ text-decoration: none;
+  }
+a:hover { 
+  color: black; 
+  font-family: arial; 
+  text-decoration: none;
+
+}
+*{
+  outline:none !important;
+}
+*:focus {
+  outline: none !important;
+}
+textarea:focus, input:focus {
+  outline: none !important;
+} 
+a  {
+  text-decoration: none !important;
+  outline: none !important;
+}
